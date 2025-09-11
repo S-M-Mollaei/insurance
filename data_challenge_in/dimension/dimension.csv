@@ -1,0 +1,84 @@
+﻿Variable Name;Role;Type;Demographic;Description;Units;Missing Values
+X1;Feature;Continuous;;Net profit/total assets;amount;yes
+X2;Feature;Continuous;;Total liabilities/total assets;amount;yes
+X3;Feature;Continuous;;Working capital/total assets;amount;yes
+X4;Feature;Continuous;;Current assets/short-term liabilities;amount;yes
+X5;Feature;Continuous;;Retained earnings/total assets;amount;yes
+X6;Feature;Continuous;;Gross profit/total assets;amount;yes
+X7;Feature;Continuous;;Book value of equity/total liabilities;amount;yes
+X8;Feature;Continuous;;Net sales revenue/total assets;amount;yes
+X9;Feature;Continuous;;Equity/total assets;amount;yes
+X10;Feature;Continuous;;(Gross profit + financial expenses)/total assets;amount;yes
+X11;Feature;Continuous;;Gross profit/short-term liabilities;amount;yes
+X12;Feature;Continuous;;(Gross profit + depreciation)/sales revenues;amount;yes
+X13;Feature;Continuous;;EBIT/total operating costs;amount;yes
+X14;Feature;Continuous;;(Gross profit + depreciation)/total liabilities;amount;yes
+X15;Feature;Continuous;;Total assets/total liabilities;amount;yes
+X16;Feature;Continuous;;EBIT/total liabilities;amount;yes
+X17;Feature;Continuous;;Gross profit/sales revenues;amount;yes
+X18;Feature;Continuous;;EBIT/total assets;amount;yes
+X19;Feature;Continuous;;Net profit/sales revenues;amount;yes
+X20;Feature;Continuous;;(Equity-share capital)/total assets;amount;yes
+X21;Feature;Continuous;;(Net profit + depreciation)/total liabilities;amount;yes
+X22;Feature;Continuous;;EBIT/financial expenses;amount;yes
+X23;Feature;Continuous;;Working capital/fixed assets;amount;yes
+X24;Feature;Continuous;;Logarithm of total assets;amount;yes
+X25;Feature;Continuous;;(Total liabilities-cash)/sales revenues;amount;yes
+X26;Feature;Continuous;;EBIT/equity;amount;yes
+X27;Feature;Continuous;;Operating expenses/short-term liabilities;amount;yes
+X28;Feature;Continuous;;Operating expenses/total liabilities;amount;yes
+X29;Feature;Continuous;;Profit on sales/total assets;amount;yes
+X30;Feature;Continuous;;Total operating revenue/total assets;amount;yes
+X31;Feature;Continuous;;(Current assets-inventories)/long-term liabilities;amount;yes
+X32;Feature;Continuous;;Constant capital/total assets;amount;yes
+X33;Feature;Continuous;;Profit on sales/sales revenues;amount;yes
+X34;Feature;Continuous;;(Current assets-inventory-receivables)/short-term liabilities;amount;yes
+X35;Feature;Continuous;;EBIT/sales revenues;amount;yes
+X36;Feature;Continuous;;Net profit/inventory;amount;yes
+X37;Feature;Continuous;;(Current assets-inventory)/short-term liabilities;amount;yes
+X38;Feature;Continuous;;EBITDA */total assets;amount;yes
+X39;Feature;Continuous;;EBITDA */sales revenues;amount;yes
+X40;Feature;Continuous;;Current assets/total liabilities;amount;yes
+X41;Feature;Continuous;;Short-term liabilities/total assets;amount;yes
+X42;Feature;Continuous;;Equity/fixed assets;amount;yes
+X43;Feature;Continuous;;Constant capital/fixed assets;amount;yes
+X44;Feature;Continuous;;Working capital;amount;yes
+X45;Feature;Continuous;;Net profit/equity;amount;yes
+X46;Feature;Continuous;;Long-term liabilities/equity;amount;yes
+X47;Feature;Continuous;;Sales revenues/inventory;amount;yes
+X48;Feature;Continuous;;Sales revenues/receivables;amount;yes
+X49;Feature;Continuous;;Sales revenues/short-term liabilities;amount;yes
+X50;Feature;Continuous;;Sales/fixed assets;amount;yes
+X51;Feature;Continuous;;(Current assets-inventory-short-term liabilities)/(total operating revenues-profit before income tax-depreciation);amount;yes
+X52;Feature;Continuous;;Net profit/net cash flow from (used in) operating activities;amount;yes
+X53;Feature;Continuous;;Depreciation/net cash flow from (used in) operating activities;amount;yes
+X54;Feature;Continuous;;Net cash flow from (used in) operating activities/total assets;amount;yes
+X55;Feature;Continuous;;Net cash flow from (used in) operating activities/income;amount;yes
+X56;Feature;Continuous;;Net cash flow from (used in) operating activities/total liabilities;amount;yes
+X57;Feature;Continuous;;Net cash flow from (used in) operating activities/long-term liabilities;amount;yes
+X58;Feature;Continuous;;Net cash flow from (used in) operating activities/short-term liabilities;amount;yes
+X59;Feature;Continuous;;Net cash flow;amount;yes
+X60;Feature;Continuous;;Net cash flow from (used in) operating activities/current assets;amount;yes
+X61;Feature;Continuous;;Net cash flow from (used in) operating activities/EBIT;amount;yes
+X62;Feature;Continuous;;Net profit per share;amount;yes
+X63;Feature;Continuous;;Income/outstanding shares;amount;yes
+X64;Feature;Continuous;;Price per share/net profit per share;amount;yes
+X65;Feature;Continuous;;Yearly dividend/price per share;amount;yes
+X66;Feature;Continuous;;Market capitalization/book value;amount;yes
+X67;Feature;Continuous;;Market capitalization/gross profit;amount;yes
+X68;Feature;Continuous;;Market capitalization/EBITDA;amount;yes
+X69;Feature;Continuous;;Market capitalization to EBIT;amount;yes
+X70;Feature;Continuous;;Market capitalization to total assets;amount;yes
+X71;Feature;Continuous;;Market capitalization/capital employed;amount;yes
+X72;Feature;Continuous;;Sales revenues (n)/sales revenues (n−1);amount;yes
+X73;Feature;Continuous;;Total sales revenue (n)/total sales revenues (n−1);amount;yes
+X74;Feature;Continuous;;Total assets (n)/total assets (n−1);amount;yes
+X75;Feature;Continuous;;Current assets (n)/current assets (n−1);amount;yes
+X76;Feature;Continuous;;EBIT (n)/EBIT (n−1);amount;yes
+X77;Feature;Continuous;;Net profit (n)/net profit (n−1);amount;yes
+X78;Feature;Continuous;;Inventory (n)/inventory (n−1);amount;yes
+X79;Feature;Continuous;;Receivables (n)/receivables (n−1);amount;yes
+X80;Feature;Continuous;;short-term liabilities (n)/short-term liabilities (n−1);amount;yes
+X81;Feature;Continuous;;Net cash flow from (used in) operating activities (n)/Net cash flow from (used in) operating activities (n−1);amount;yes
+X82;Feature;Continuous;;Net cash flow(n)/net cash flow (n−1);amount;no
+S;Feature;Categorical;;sectors;amount;no
