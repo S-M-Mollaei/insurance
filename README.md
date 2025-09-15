@@ -53,6 +53,9 @@ The dataset contains multiple `.arff` files, each representing financial data fo
 - Identified sector-specific features significantly affected by COVID-19
 - Top indicators: Market Cap/EBITDA, Working Capital, Cash Flow ratios, etc.
 - Achieved strong classification performance (e.g., F1 macro ≈ 0.77)
+- Integrated FastAPI to serve visualizations and statistical results as a REST API
+- Endpoints include `/run-analysis` for plots and statistical summaries
+- Supports exporting visualizations as PDF files
 
 ---
 
@@ -69,10 +72,34 @@ The dataset contains multiple `.arff` files, each representing financial data fo
 
 ## 🚀 How to Run
 
-1. Clone the repo:
+1. Local:
 
    ```bash
-   git clone https://github.com/yourusername/financial-sector-prediction.git
-   cd financial-sector-prediction
-   pip install -r requirements.txt
+   # Navigate to the project directory  
+   cd revo_insurance  
+
+   # Create a virtual environment  
+   python3 -m venv env  
+
+   # Activate the virtual environment  
+   source env/bin/activate  
+
+   # Install dependencies  
+   pip install -r requirements.txt  
+
+   # Run the main script  
    python3 main.py
+
+   # Run FastAPI to get the pdf of the images
+   uvicorn fastapi_main:app --reload --host 0.0.0.0 --port 8000
+   ```
+
+2. Docker
+
+   ```bash
+   # Build the image
+   docker build -t revo-insurance .
+
+   # Run the container
+   docker run -p 8000:8000 revo-insurance 
+   ```

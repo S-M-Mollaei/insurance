@@ -9,11 +9,13 @@ class ARFFParser:
     def extract_year_quarter(relation: str) -> tuple[int, int]:
         relation = relation.strip().strip("'\"")
         parts = relation.split()
-        try:
-            if len(parts) >= 2 and parts[1].upper().startswith("Q"):
+        if len(parts) >= 2 and parts[1].upper().startswith("Q"):
+            try:
                 return int(parts[0]), int(parts[1][1:])
-        except (ValueError, IndexError):
-            raise ValueError(f"Invalid ARFF relation format: {relation}")
+            except (ValueError, IndexError):
+                pass
+        raise ValueError(f"Invalid ARFF relation format: {relation}")
+
 
     @staticmethod
     def assign_period(year: int, quarter: int, cutoff_year: int = 2020, cutoff_quarter: int = 1) -> str:

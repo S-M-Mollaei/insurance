@@ -106,7 +106,7 @@ def main():
     # Split into train/test
     splits = prep.split(X_all, X_selected, y)
 
-    # Unpack if needed
+    # Unpack 
     X_train_all, X_test_all, y_train_all, y_test_all = splits["all"]
     X_train_sel, X_test_sel, y_train_sel, y_test_sel = splits["selected"]
 

@@ -16,6 +16,7 @@ class ModelTrainer:
         self.random_state = random_state
         self.n_splits = n_splits
         self.verbose = verbose
+        self.path = path
 
     def cross_validate(self, X, y) -> Dict[str, float]:
         """Run StratifiedKFold cross-validation and return mean/std F1 macro."""
