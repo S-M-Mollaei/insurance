@@ -52,7 +52,7 @@ The dataset contains multiple `.arff` files, each representing financial data fo
 
 - Identified sector-specific features significantly affected by COVID-19
 - Top indicators: Market Cap/EBITDA, Working Capital, Cash Flow ratios, etc.
-- Achieved strong classification performance (e.g., F1 macro ≈ 0.77)
+- Achieved strong classification performance (e.g., F1 macro ≈ 0.74 using all Xs and F1 macro ≈ 0.71 using selected Xs)
 - Integrated FastAPI to serve visualizations and statistical results as a REST API
 - Endpoints include `/run-analysis` for plots and statistical summaries
 - Supports exporting visualizations as PDF files
