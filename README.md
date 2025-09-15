@@ -92,6 +92,9 @@ The dataset contains multiple `.arff` files, each representing financial data fo
 
    # Run FastAPI to get the pdf of the images
    uvicorn fastapi_main:app --reload --host 0.0.0.0 --port 8000
+
+   # To run the tests
+   pytest tests/
    ```
 
 2. Docker
